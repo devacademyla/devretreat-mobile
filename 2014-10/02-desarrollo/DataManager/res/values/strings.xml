@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DataManager</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="action_ayuda">Acerca de</string>
+    <string name="action_config">Configuracion</string>
+    <string name="title_activity_ayuda">AyudaActivity</string>
+    <string name="title_activity_config">ConfigActivity</string>
+    <string name="label_plan">Plan de Datos (MB):</string>
+    <string name="label_uso">Uso Anterior de Datos (MB):</string>
+    <string name="label_inicio">Dia de inicio del Plan:</string>
+    <string name="label_notificar50">Notificar al 50% del consumo:</string>
+    <string name="label_boton">Guardar</string>
+    <string name="label_reset">Config. Inicial</string>
+    <string name="label_sincro">Sincronizar</string>
+    <string name="etiqueta_percent">%</string>
+    <string name="etiqueta_uso">uso</string>
+    <string name="etiqueta_recibido">Recibidos</string>
+    <string name="etiqueta_enviado">Enviados</string>
+    <string name="etiqueta_cantidad_recibida">0</string>
+    <string name="etiqueta_cantidad_enviada">0</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_configuracion">ConfiguracionActivity</string>
+
+</resources>

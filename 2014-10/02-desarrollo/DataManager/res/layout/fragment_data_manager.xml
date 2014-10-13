@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.iluminatic.datamanager.DataManagerActivity$PlaceholderFragment" 
+    android:background="#6BD600">
+
+     <TextView
+        android:id="@+id/txtConsumo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/etiqueta_percent"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtConsumo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"
+        android:textColor="#FFFFFF"
+        android:layout_toRightOf="@+id/txtConsumo"
+        android:text="@string/etiqueta_percent" 
+         android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/txtUso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtConsumo"
+        android:layout_alignBottom="@+id/txtConsumo"
+        android:textColor="#FFFFFF"
+        android:layout_alignLeft="@+id/txtPercent"
+        android:text="@string/etiqueta_uso" />
+
+    <TextView
+        android:id="@+id/txtRecibido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="21dp"
+        android:layout_toLeftOf="@+id/txtConsumo"
+        android:text="@string/etiqueta_recibido"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtCantidadRecibida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtRecibido"
+        android:layout_alignTop="@+id/txtRecibido"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:text="@string/etiqueta_cantidad_recibida" />
+
+    <TextView
+        android:id="@+id/txtCantidadEnviada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtCantidadRecibida"
+        android:layout_alignBottom="@+id/txtCantidadRecibida"
+        android:layout_alignLeft="@+id/txtEnviados"
+        android:text="@string/etiqueta_cantidad_enviada"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtEnviados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtCantidadEnviada"
+        android:layout_alignLeft="@+id/txtUso"
+        android:text="@string/etiqueta_enviado"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
